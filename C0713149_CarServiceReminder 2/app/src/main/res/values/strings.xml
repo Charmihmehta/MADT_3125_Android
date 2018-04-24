@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">C0713149_CarServiceReminder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string-array name="service_arrays">
+        <item>Oil</item>
+        <item>Lining</item>
+        <item>Wheel Alignment</item>
+        <item>Engine Inspection</item>
+        <item>Timing Belt</item>
+
+    </string-array>
+    <string-array name="next_service_arrays">
+        <item>Distance</item>
+        <item>Date</item>
+        <item>None</item>
+
+    </string-array>
+    <string-array name="service_station_arrays">
+        <item>Paragon Auto Repair</item>
+        <item>Sunny's Auto Clinic</item>
+        <item>McDermott Motors Tirecraft</item>
+        <item>Midas Auto Service </item>
+        <item>Cam's Auto Service</item>
+
+    </string-array>
+</resources>

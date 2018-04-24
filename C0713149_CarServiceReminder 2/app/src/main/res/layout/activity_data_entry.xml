@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.macstudent.c0713149_carservicereminder.DataEntryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/txtdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service date"
+            android:focusableInTouchMode="false"
+            android:clickable="true"
+            android:ems="10"
+            />
+        <EditText
+            android:id="@+id/txtOdometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Odometer "/>
+
+        <Spinner
+            android:id="@+id/serviceType"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:entries="@array/service_arrays"
+            >
+
+        </Spinner>
+        <EditText
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+           />
+        <EditText
+            android:id="@+id/cost"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Cost"
+
+            android:inputType="number" />
+        <Spinner
+            android:id="@+id/nextService"
+            android:layout_width="match_parent"
+
+            android:layout_height="43dp"
+            android:entries  ="@array/next_service_arrays"
+            >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/txtNextChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Next change after"
+            />
+        <Spinner
+            android:id="@+id/stationName"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:entries  ="@array/service_station_arrays"
+            >
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
